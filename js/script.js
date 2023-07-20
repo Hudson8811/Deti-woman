@@ -45,13 +45,11 @@ $(document).ready(function() {
 	$(document).on('click', '.test__reset', function(event) {
 		$('.test__radiobuttons .test__radiobuttons-item').parent().next().removeClass('js-active');
 		$('.test__radiobuttons .test__radiobuttons-item input').prop('checked', false);;
+		$('.test__btn-next').removeClass('js-active');
 		$('.result').removeClass('show');
 		$('.test__card').removeClass('hide');
 		$('.test__swiper').slideDown();
 		$('.test__results').slideUp(300);
 		swiper.slideTo(0);
 	});
-
-
-
 });
