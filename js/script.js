@@ -12,6 +12,7 @@ $(document).ready(function() {
 	$( ".test__radiobuttons .test__radiobuttons-item" ).on( "click", function() {
 		if ($(this).children().first().prop('checked', true)) {
 			$(this).parent().parent().children('.test__btn-next').addClass('js-active');
+			$(this).parent().addClass('disable-class');
 			$(this).parent().parent().children('.test__results').slideDown(300);
 		}
 	});
@@ -46,6 +47,7 @@ $(document).ready(function() {
 		$('.test__radiobuttons .test__radiobuttons-item').parent().next().removeClass('js-active');
 		$('.test__radiobuttons .test__radiobuttons-item input').prop('checked', false);;
 		$('.test__btn-next').removeClass('js-active');
+		$('.test__radiobuttons').removeClass('disable-class');
 		$('.result').removeClass('show');
 		$('.test__card').removeClass('hide');
 		$('.test__swiper').slideDown();

@@ -26,6 +26,9 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+	.disable-class {
+		pointer-events: none;
+	}
 	.test-desk {
 		@media (max-width: 800px){
 			display: none;
