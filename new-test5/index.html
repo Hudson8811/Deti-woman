@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="test">
+		<div class="test__swiper swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="test__card test-card hero-result-test">
+						<div class="test-card__star test-card__star--blue"></div>
+						<div class="test-card__star test-card__star--yellow"></div>
+						<div class="test-card__star test-card__star--white"></div>
+						<div class="test-card__left">
+							<img class="test-card__left-desk" src="img/1.png" alt="">
+							<img class="test-card__left-mob" src="img/1mob.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="hero-test__title hero-result-test__title test__title test-desk">
+								Дизайн интерфейсов должен быть красивым?
+							</div>
+							<div class="hero-result-test__text test__text">
+								Да! Но главное, он должен быть логичным. Поэтому у дизайнеров есть правила — конечно, простые и интуитивно понятные.
+								Убедитесь сами.
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>начать тест ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/2.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 1 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>Правило иерархии. Что это значит?</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio1">
+									<label for="test__radiobuttons-itemA"><span>На экране всегда должно быть что-то мелкое и что-то крупное</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio1">
+									<label for="test__radiobuttons-itemB"><span>Главные, целевые элементы должны быть заметнее</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio1">
+									<label for="test__radiobuttons-itemC"><span>Каждый элемент должен быть кликабельным</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Неверно.</b> Может быть и два крупных — если, например, целевое действие заключается в выборе из равнозначных опций. Но
+										самое главное всегда должно быть заметнее, выделяться.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Верно.</b> Все элементы дизайна должны быть расположены в строгой иерархии: самые важные элементы — на первом плане,
+										дополнительные опции — на заднем.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> В этом случае приложение постоянно кидало бы нас туда-сюда. Принцип иерархии таков: самое главное визуально
+										отделено от необязательного или менее важного.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/3.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 2 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>Принцип последовательности. Что это значит?
+								</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio2">
+									<label for="test__radiobuttons-itemA"><span>Все блоки (страницы) приложения должны быть похожи</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio2">
+									<label for="test__radiobuttons-itemB"><span>Элементы на странице должны располагаться от более крупных к более мелким</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio2">
+									<label for="test__radiobuttons-itemC"><span>Приложение должны регулярно обновляться и приобретать новые функции</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Верно.</b> Если, например, на одной странице название товара написано слева, а акционные предложения — справа, на следующей
+										должно быть также, чтобы не путать пользователя.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Строгой последовательности нет, главное, чтобы, согласно принципу иерархии, самое видное было самым главным. А
+										уж где расположить элементы, зависит от многих факторов.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> Вернее, обновляться-то должны, но переизбыток функций может сыграть и злую шутку, заставляя путаться в поисках
+										того, зачем мы открыли приложение.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/4.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 3 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>
+									Принцип согласованности. Что это значит?
+								</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio3">
+									<label for="test__radiobuttons-itemA"><span>Все иконки, которые работают похожим образом, выглядят похоже</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio3">
+									<label for="test__radiobuttons-itemB"><span>Цвета должны указывать на цель: например, зеленый — всегда «да», красный — всегда «нет»</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio3">
+									<label for="test__radiobuttons-itemC"><span>Дизайн должен быть согласован с заказчиком</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Верно.</b> Как все в дизайне интерфейсов, это абсолютно логично.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Конечно, экспериментировать с привычными значениями цветов — обычно плохая идея. Но верный ответ — первый.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> Безусловно, прежде чем приложение станет доступно всем нам, оно пройдет целый цикл согласований и доработок.<br>
+										Но верный ответ — первый.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/5.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 4 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>Принцип типографики. Что это значит?</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio4">
+									<label for="test__radiobuttons-itemA"><span>Используй разные шрифты для привлечения внимания</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio4">
+									<label for="test__radiobuttons-itemB"><span>Графические элементы должны одновременно загружаться</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio4">
+									<label for="test__radiobuttons-itemC"><span>Старайся располагать все так же, как в хорошем печатном издании</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Неверно.</b> Более того, чем меньше шрифтов использует дизайнер, тем лучше — так текст проще читается и не перегружает
+										внимание.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Верстка интерфейса должна быть легкой, чтобы моментально загружаться на экраны мобильников и соответствовать
+										привычному расположению элементов — как будто в книге.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Верно.</b> Выравнивание по левому краю, шрифты без засечек, побольше воздуха, поменьше кричать КАПСОМ и отвлекать курсивом
+										и полужирным написанием — все это применимо и к дизайну интерфейсов.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/6.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 5 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>В итоге: какое самое-самое-самое главное правило хорошего интерфейса?</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio5">
+									<label for="test__radiobuttons-itemA"><span>Человек не должен задумываться, как пользоваться приложением</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio5">
+									<label for="test__radiobuttons-itemB"><span>Пользователь должен наслаждаться красивым уникальным дизайном</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio5">
+									<label for="test__radiobuttons-itemC"><span>Пользователь должен изучить все возможности приложения</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Верно.</b> На все сто процентов! Дизайнер интерфейсов — тот, кто думает, как сделать так, чтобы не думали мы.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Чем необычнее дизайн, тем сложнее к нему привыкнуть. А лишние визуальные элементы могут сделать приложение
+										слишком «тяжелым», и оно будет плохо работать.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> Главное — мы должны получить от приложения то, зачем его установили: суметь вызвать такси, перевести деньги или
+										заказать столик в ресторане.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn test__reset">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>< пройти заново</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
