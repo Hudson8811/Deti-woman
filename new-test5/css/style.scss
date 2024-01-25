@@ -97,7 +97,7 @@
 			.test-card__star {
 				&--blue {
 					top: 10%;
-					left: 40%;
+					left: 50%;
 				}
 				&--yellow {
 					top: 60%;
@@ -314,7 +314,7 @@
 				font-size: 1.67vw;
 			}
 			@media (max-width: 800px){
-				font-size: 4.5vw;
+				font-size: 5vw;
 			}
 		}
 		&--hint {
@@ -677,25 +677,33 @@
 			}
 		}
 		.hero-test__title {
-			font-size: 28px;
+			font-size: 45px;
+			max-width: 630px;
 			@media (max-width: 1439px){
-				font-size: 1.94vw;
+				max-width: 43.78vw;
+				font-size: 3.13vw;
 			}
 			@media (max-width: 800px){
-				display: none;
+				max-width: 100%;
+				font-size: 6vw;
 			}
 		}
 		&__text {
 			margin-top: 14px;
+			max-width: 450px;
 			@media (max-width: 1439px){
 				margin-top: 0.97vw;
+				max-width: 31.27vw;
 			}
 			@media (max-width: 800px){
+				max-width: 92%;
 				margin-top: 6.75vw;
 				flex: 1 1 auto;
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
+				font-size: 4vw;
+				font-weight: 400;
 			}
 		}
 		&__btn {
@@ -744,7 +752,7 @@
 		}
 		.test__title {
 			@media (max-width: 800px){
-				flex: 0 0 42.25vw;
+				flex: 0 0 40vw;
 				margin: 0;
 			}
 		}
